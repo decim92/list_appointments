@@ -11,7 +11,13 @@ import SwiftUI
 struct ST__iOS_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                viewModel: ContentViewModel(
+                    repository: LiveAppointmentRepository(
+                        networkProvider: LiveNetworkProvider()
+                    )
+                )
+            )
         }
     }
 }

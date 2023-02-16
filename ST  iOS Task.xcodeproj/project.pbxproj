@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F504674C299EE065004853C2 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504674B299EE065004853C2 /* CurrencyFormatter.swift */; };
+		F504674E299EE400004853C2 /* AppointmentPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504674D299EE400004853C2 /* AppointmentPresentation.swift */; };
+		F5046750299EF094004853C2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504674F299EF094004853C2 /* DetailView.swift */; };
+		F5046752299EF0A1004853C2 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5046751299EF0A1004853C2 /* CellView.swift */; };
+		F5046755299EF446004853C2 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5046754299EF446004853C2 /* ErrorView.swift */; };
 		F5D1BECA299ECCA4007AB3E9 /* ST__iOS_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEC9299ECCA4007AB3E9 /* ST__iOS_TaskApp.swift */; };
 		F5D1BECC299ECCA4007AB3E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BECB299ECCA4007AB3E9 /* ContentView.swift */; };
 		F5D1BECE299ECCA6007AB3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D1BECD299ECCA6007AB3E9 /* Assets.xcassets */; };
 		F5D1BED1299ECCA6007AB3E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D1BED0299ECCA6007AB3E9 /* Preview Assets.xcassets */; };
+		F5D1BEDD299ECD4F007AB3E9 /* NetworkRequestCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEDC299ECD4F007AB3E9 /* NetworkRequestCreator.swift */; };
+		F5D1BEDF299ECD57007AB3E9 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEDE299ECD57007AB3E9 /* Route.swift */; };
+		F5D1BEE1299ECD62007AB3E9 /* RequestCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEE0299ECD62007AB3E9 /* RequestCreator.swift */; };
+		F5D1BEE3299ECD6D007AB3E9 /* NetworkServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEE2299ECD6D007AB3E9 /* NetworkServiceProvider.swift */; };
+		F5D1BEE5299ECD7F007AB3E9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEE4299ECD7F007AB3E9 /* NetworkService.swift */; };
+		F5D1BEE7299ECDED007AB3E9 /* Appoinment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEE6299ECDED007AB3E9 /* Appoinment.swift */; };
+		F5D1BEEB299ECEB4007AB3E9 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEEA299ECEB4007AB3E9 /* ContentViewModel.swift */; };
+		F5D1BEED299ECEE0007AB3E9 /* AppointmentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEEC299ECEE0007AB3E9 /* AppointmentRepository.swift */; };
+		F5D1BEF0299ED662007AB3E9 /* MockAppointmentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1BEEF299ED662007AB3E9 /* MockAppointmentRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F504674B299EE065004853C2 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		F504674D299EE400004853C2 /* AppointmentPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPresentation.swift; sourceTree = "<group>"; };
+		F504674F299EF094004853C2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F5046751299EF0A1004853C2 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		F5046754299EF446004853C2 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		F5D1BEC6299ECCA4007AB3E9 /* ST  iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ST  iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D1BEC9299ECCA4007AB3E9 /* ST__iOS_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST__iOS_TaskApp.swift; sourceTree = "<group>"; };
 		F5D1BECB299ECCA4007AB3E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5D1BECD299ECCA6007AB3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D1BED0299ECCA6007AB3E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5D1BEDC299ECD4F007AB3E9 /* NetworkRequestCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestCreator.swift; sourceTree = "<group>"; };
+		F5D1BEDE299ECD57007AB3E9 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F5D1BEE0299ECD62007AB3E9 /* RequestCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCreator.swift; sourceTree = "<group>"; };
+		F5D1BEE2299ECD6D007AB3E9 /* NetworkServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProvider.swift; sourceTree = "<group>"; };
+		F5D1BEE4299ECD7F007AB3E9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F5D1BEE6299ECDED007AB3E9 /* Appoinment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appoinment.swift; sourceTree = "<group>"; };
+		F5D1BEEA299ECEB4007AB3E9 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F5D1BEEC299ECEE0007AB3E9 /* AppointmentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRepository.swift; sourceTree = "<group>"; };
+		F5D1BEEF299ED662007AB3E9 /* MockAppointmentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAppointmentRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F504674A299EE053004853C2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F504674B299EE065004853C2 /* CurrencyFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F5046753299EF434004853C2 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				F5046754299EF446004853C2 /* ErrorView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
 		F5D1BEBD299ECCA4007AB3E9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +95,13 @@
 		F5D1BEC8299ECCA4007AB3E9 /* ST  iOS Task */ = {
 			isa = PBXGroup;
 			children = (
+				F504674A299EE053004853C2 /* Helpers */,
+				F5D1BEEE299ED653007AB3E9 /* Mocks */,
+				F5D1BEDA299ECCFD007AB3E9 /* Repositories */,
+				F5D1BED9299ECCF3007AB3E9 /* Services */,
+				F5D1BED8299ECCED007AB3E9 /* Models */,
+				F5D1BED7299ECCE7007AB3E9 /* Scenes */,
 				F5D1BEC9299ECCA4007AB3E9 /* ST__iOS_TaskApp.swift */,
-				F5D1BECB299ECCA4007AB3E9 /* ContentView.swift */,
 				F5D1BECD299ECCA6007AB3E9 /* Assets.xcassets */,
 				F5D1BECF299ECCA6007AB3E9 /* Preview Content */,
 			);
@@ -65,6 +114,79 @@
 				F5D1BED0299ECCA6007AB3E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5D1BED7299ECCE7007AB3E9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F5046753299EF434004853C2 /* CommonViews */,
+				F5D1BEE9299ECE26007AB3E9 /* Content */,
+				F5D1BEE8299ECE20007AB3E9 /* Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F5D1BED8299ECCED007AB3E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1BEE6299ECDED007AB3E9 /* Appoinment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5D1BED9299ECCF3007AB3E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1BEDB299ECD2F007AB3E9 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F5D1BEDA299ECCFD007AB3E9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1BEEC299ECEE0007AB3E9 /* AppointmentRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F5D1BEDB299ECD2F007AB3E9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1BEDC299ECD4F007AB3E9 /* NetworkRequestCreator.swift */,
+				F5D1BEE0299ECD62007AB3E9 /* RequestCreator.swift */,
+				F5D1BEE2299ECD6D007AB3E9 /* NetworkServiceProvider.swift */,
+				F5D1BEE4299ECD7F007AB3E9 /* NetworkService.swift */,
+				F5D1BEDE299ECD57007AB3E9 /* Route.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F5D1BEE8299ECE20007AB3E9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F504674F299EF094004853C2 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F5D1BEE9299ECE26007AB3E9 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1BECB299ECCA4007AB3E9 /* ContentView.swift */,
+				F5D1BEEA299ECEB4007AB3E9 /* ContentViewModel.swift */,
+				F504674D299EE400004853C2 /* AppointmentPresentation.swift */,
+				F5046751299EF0A1004853C2 /* CellView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		F5D1BEEE299ED653007AB3E9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D1BEEF299ED662007AB3E9 /* MockAppointmentRepository.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +260,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D1BECC299ECCA4007AB3E9 /* ContentView.swift in Sources */,
+				F504674C299EE065004853C2 /* CurrencyFormatter.swift in Sources */,
+				F5D1BEE1299ECD62007AB3E9 /* RequestCreator.swift in Sources */,
+				F5046750299EF094004853C2 /* DetailView.swift in Sources */,
+				F5D1BEF0299ED662007AB3E9 /* MockAppointmentRepository.swift in Sources */,
+				F5D1BEDF299ECD57007AB3E9 /* Route.swift in Sources */,
+				F504674E299EE400004853C2 /* AppointmentPresentation.swift in Sources */,
+				F5D1BEDD299ECD4F007AB3E9 /* NetworkRequestCreator.swift in Sources */,
 				F5D1BECA299ECCA4007AB3E9 /* ST__iOS_TaskApp.swift in Sources */,
+				F5D1BEEB299ECEB4007AB3E9 /* ContentViewModel.swift in Sources */,
+				F5D1BEE3299ECD6D007AB3E9 /* NetworkServiceProvider.swift in Sources */,
+				F5046752299EF0A1004853C2 /* CellView.swift in Sources */,
+				F5D1BEE7299ECDED007AB3E9 /* Appoinment.swift in Sources */,
+				F5D1BEE5299ECD7F007AB3E9 /* NetworkService.swift in Sources */,
+				F5D1BEED299ECEE0007AB3E9 /* AppointmentRepository.swift in Sources */,
+				F5046755299EF446004853C2 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
